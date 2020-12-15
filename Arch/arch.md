@@ -1,6 +1,6 @@
 ## Pacman
 
-sudo pacman -S --noconfirm nvidia-utils nvidia-settings nodejs npm steam neofetch docker zsh firefox bleachbit kaffeine virtualbox c
+sudo pacman -S --noconfirm nvidia-utils nvidia-settings nodejs npm steam neofetch docker zsh firefox bleachbit kaffeine virtualbox 
 
 ## Yay
 

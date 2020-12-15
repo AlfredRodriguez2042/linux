@@ -6,6 +6,11 @@
 ## theme
 - aritim dark
 
+### Blur 
+-  wallpaper > wallpaper Type : inactive Blur(plugin v1)
+
+![img](/images/blur.png)
+
 ### console trasparency
 - aritim dark
 
