@@ -7,7 +7,7 @@ sudo pacman -S --noconfirm nvidia-utils nvidia-settings nodejs npm steam neofetc
 ## Yay
 
 ```
-yay -S glmark2 visual-studio-code-bin authy slack-desktop zsh-theme-powerlevel10k-git google-chrome stacer qtkeychain gnome-keyring
+yay -S glmark2 visual-studio-code-bin authy slack-desktop zsh-theme-powerlevel10k-git google-chrome stacer qtkeychain gnome-keyring insomnia
 ```
 
 ## Codecs
