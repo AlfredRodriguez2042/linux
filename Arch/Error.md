@@ -33,3 +33,19 @@ cat /usr/share/dbus-1/services/org.freedesktop.secrets.service
 ```sh
 sudo rm /var/lib/pacman/db.lck && sudo pacman -Syu
 ```
+
+### LibClamAV Error: cli_loaddbdir()
+
+- All you have to do is run the commands below and then try again and everything should work as far as ClamAV is concerned:
+
+```
+sudo service clamav-freshclam stop
+sudo freshclam
+sudo service clamav-freshclam start
+```
+
+- scan
+
+```
+sudo clamscan -rv /home/you-user
+```
