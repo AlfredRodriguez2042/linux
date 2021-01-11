@@ -7,7 +7,7 @@ sudo pacman -S --noconfirm nvidia-utils nvidia-settings nodejs npm steam neofetc
 ## Yay
 
 ```
-yay -S glmark2 visual-studio-code-bin authy slack-desktop zsh-theme-powerlevel10k-git google-chrome stacer qtkeychain gnome-keyring insomnia
+yay -S glmark2 visual-studio-code-bin authy slack-desktop zsh-theme-powerlevel10k-git google-chrome stacer qtkeychain gnome-keyring insomnia bitwarden-bin
 ```
 
 ## Codecs
@@ -68,6 +68,12 @@ obs -> tools-> v4l2sink -> video7
 yay -S komorebi
 fix missing file video:
 sudo pacman -S gst-libav
+```
+
+### extra
+
+```
+yay -S davinci-resolve-beta
 ```
 
 ffmpeg -i titan.mov -c:v libx264 -preset ultrafast -crf 0 titan1.mp4
