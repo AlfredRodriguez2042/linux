@@ -49,3 +49,13 @@ sudo service clamav-freshclam start
 ```
 sudo clamscan -rv /home/you-user
 ```
+
+### Virtual box
+
+- usb problems
+  add virtual box extencion pack
+- usb problems persist
+
+```
+     sudo gpasswd -a user vboxusers
+```
