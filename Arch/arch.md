@@ -1,7 +1,7 @@
 ## Pacman
 
 ```
-sudo pacman -S --noconfirm nvidia-utils nvidia-settings nodejs npm steam neofetch docker zsh firefox bleachbit kaffeine virtualbox obs-studio clamav
+sudo pacman -S --noconfirm nvidia-utils nvidia-settings nodejs npm steam neofetch docker zsh firefox bleachbit kaffeine virtualbox obs-studio clamav thunderbird
 ```
 
 ## Yay
