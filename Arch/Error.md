@@ -57,5 +57,8 @@ sudo clamscan -rv /home/you-user
 - usb problems persist
 
 ```
+     sudo pacman -S virtualbox-guest-iso
      sudo gpasswd -a user vboxusers
+     systemctl enable vboxweb
+     systemctl start vboxweb
 ```
