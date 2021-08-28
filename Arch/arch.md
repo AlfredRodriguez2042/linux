@@ -78,3 +78,11 @@ yay -S davinci-resolve-beta
 
 ffmpeg -i titan.mov -c:v libx264 -preset ultrafast -crf 0 titan1.mp4
 ffmpeg -i zerotwo.mp4 -vcodec mjpeg -q:v 2 -acodec pcm_s16be -q:a 0 -f mov zerotwo.mov
+
+### Gamer tools
+
+```sh
+sudo pacman -S glslang vulkan-tools lib32-libx11 libx11 meson
+
+yay -S goverlay mangohud lib32-mangohud vkbasalt lib32-vkbasalt
+```

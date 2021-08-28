@@ -9,6 +9,12 @@ Downgraded to 1.9.0 and modified /etc/pacman.conf to "IgnorePkg = conky". Workin
 
 "terminal.integrated.fontFamily": "MesloLGS NF",
 
+### vscode doki plugins
+
+```sh
+sudo chown -R $(whoami) /opt/visual-studio-code/resources/app/out/vs/workbench
+```
+
 ### git service error in vscode
 
 Writing login information to the keychain failed with error 'The name org.freedesktop.secrets was not provided by any .service files'.
@@ -61,4 +67,14 @@ sudo clamscan -rv /home/you-user
      sudo gpasswd -a user vboxusers
      systemctl enable vboxweb
      systemctl start vboxweb
+```
+
+### yay error
+
+error while loading shared libraries: libalpm.so.12
+reinstall yay
+
+```sh
+sudo pacman -R yay
+cd /tmp && git clone 'https://aur.archlinux.org/yay.git' && cd /tmp/yay && makepkg -si && cd ~ && rm -rf /tmp/yay/
 ```
