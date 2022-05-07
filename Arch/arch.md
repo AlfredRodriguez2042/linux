@@ -7,7 +7,7 @@ sudo pacman -S --noconfirm nvidia-utils nvidia-settings nodejs npm steam neofetc
 ## Yay
 
 ```
-yay -S glmark2 visual-studio-code-bin authy slack-desktop zsh-theme-powerlevel10k-git google-chrome stacer qtkeychain gnome-keyring insomnia bitwarden-bin zoom brave-bin songrec
+yay -S glmark2 visual-studio-code-bin authy slack-desktop zsh-theme-powerlevel10k-git google-chrome stacer qtkeychain gnome-keyring insomnia bitwarden-bin zoom brave-bin songrec flameshot spotify dbeaver telegram-desktop
 ```
 
 ## Codecs
@@ -89,3 +89,11 @@ sudo pacman -S glslang vulkan-tools lib32-libx11 libx11 meson
 
 yay -S goverlay mangohud lib32-mangohud vkbasalt lib32-vkbasalt
 ```
+### install MAC OS on vitrtualBox
+# scripts
+VBoxManage modifyvm "macOs Monterrey" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+VBoxManage setextradata "macOs Monterrey" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "MacBookPro15,1"
+VBoxManage setextradata "macOs Monterrey" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
+VBoxManage setextradata "macOs Monterrey" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Mac-551B86E5744E2388"
+VBoxManage setextradata "macOs Monterrey" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+VBoxManage setextradata "macOs Monterrey" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
