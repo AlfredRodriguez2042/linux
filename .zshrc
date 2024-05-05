@@ -23,7 +23,7 @@ alias ll="ls -alF"
 alias la="ls -A"
 alias l="ls -CF"
 alias cat="bat"
-
+alias catn=/usr/bin/cat 
 SAVEHIST=1000
 HISTFILE=~/.zsh_history
 HISTSIZE=1000
