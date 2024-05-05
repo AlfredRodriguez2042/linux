@@ -78,8 +78,18 @@ reinstall yay
 sudo pacman -R yay
 cd /tmp && git clone 'https://aur.archlinux.org/yay.git' && cd /tmp/yay && makepkg -si && cd ~ && rm -rf /tmp/yay/
 ```
+
 ### monitor
+
 ```sh
 yay autorandr arandr
 autorandr --save mobile
+```
+
+## WireGuard
+
+### if Failed to set DNS configuration: Could not activate remote peer: activation request failed: unknown unit.
+
+```bash
+ sudo systemctl enable --now systemd-resolved
 ```

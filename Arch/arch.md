@@ -2,12 +2,13 @@
 
 ```
 sudo pacman -S --noconfirm nvidia-utils nvidia-settings nodejs npm steam neofetch docker zsh firefox bleachbit kaffeine virtualbox obs-studio clamav thunderbird appmenu-gtk-module lnav
+sudo pacman -Sy base-devel tar gzip wireguard-tools
 ```
 
 ## Yay
 
 ```
-yay -S glmark2 visual-studio-code-bin authy slack-desktop zsh-theme-powerlevel10k-git google-chrome stacer qtkeychain gnome-keyring insomnia bitwarden-bin zoom brave-bin songrec flameshot spotify dbeaver telegram-desktop
+yay -S glmark2 visual-studio-code-bin authy slack-desktop zsh-theme-powerlevel10k-git google-chrome stacer qtkeychain gnome-keyring insomnia bitwarden-bin zoom brave-bin songrec flameshot spotify dbeaver telegram-desktop runjs-bin microsoft-edge-stable-bin
 ```
 
 ## Codecs
@@ -90,8 +91,25 @@ sudo pacman -S glslang vulkan-tools lib32-libx11 libx11 meson
 
 yay -S goverlay mangohud lib32-mangohud vkbasalt lib32-vkbasalt
 ```
+
+### Use WireGuard
+
+mv <path example.config> /etc/wireguard/<example.config>
+
+```bash
+wg-quick up <name of config file>
+```
+
+### if Failed to set DNS configuration: Could not activate remote peer: activation request failed: unknown unit.
+
+```bash
+ sudo systemctl enable --now systemd-resolved
+```
+
 ### install MAC OS on vitrtualBox
+
 # scripts
+
 VBoxManage modifyvm "macOs Monterrey" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
 VBoxManage setextradata "macOs Monterrey" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "MacBookPro15,1"
 VBoxManage setextradata "macOs Monterrey" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
