@@ -2,13 +2,13 @@
 
 ```
 sudo pacman -S --noconfirm nvidia-utils nvidia-settings nodejs npm steam neofetch docker zsh firefox bleachbit kaffeine virtualbox obs-studio clamav thunderbird appmenu-gtk-module lnav
-sudo pacman -Sy base-devel tar gzip wireguard-tools
+sudo pacman -Sy base-devel tar gzip wireguard-tools scrcpy
 ```
 
 ## Yay
 
 ```
-yay -S glmark2 visual-studio-code-bin authy slack-desktop zsh-theme-powerlevel10k-git google-chrome stacer qtkeychain gnome-keyring insomnia bitwarden-bin zoom brave-bin songrec flameshot spotify dbeaver telegram-desktop runjs-bin microsoft-edge-stable-bin
+yay -S glmark2 visual-studio-code-bin authy slack-desktop zsh-theme-powerlevel10k-git google-chrome stacer qtkeychain gnome-keyring insomnia bitwarden-bin zoom brave-bin songrec flameshot spotify dbeaver telegram-desktop runjs-bin microsoft-edge-stable-bin uxplay android-studio
 ```
 
 ## Codecs
